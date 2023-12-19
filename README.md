@@ -1,3 +1,13 @@
+# Resources to learn React:
+## Have a familiar understanding of Javascript!!!
+- I strongly recommend going through this YouTube video to learn JavaScript (I used this before I first learned React). You don't have to finish it in one day but it should be a good introduction. https://www.youtube.com/watch?v=PkZNo7MFNFg
+## React resources
+- https://www.youtube.com/watch?v=Tn6-PIqc4UM
+- Official React website - one of the best resources! https://react.dev/learn
+- Codecademy Interactive Course - https://www.codecademy.com/learn/react-101
+- Youtube Project Walkthrough - https://www.youtube.com/watch?v=Rh3tobg7hEo
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
