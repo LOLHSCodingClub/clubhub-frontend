@@ -6,6 +6,7 @@
 - Official React website - one of the best resources! https://react.dev/learn
 - Codecademy Interactive Course - https://www.codecademy.com/learn/react-101
 - Youtube Project Walkthrough - https://www.youtube.com/watch?v=Rh3tobg7hEo
+- Playground for React: https://playcode.io/react
 
 
 # Getting Started with Create React App
