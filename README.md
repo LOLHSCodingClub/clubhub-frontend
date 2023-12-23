@@ -7,6 +7,7 @@
 - Codecademy Interactive Course - https://www.codecademy.com/learn/react-101
 - Youtube Project Walkthrough - https://www.youtube.com/watch?v=Rh3tobg7hEo
 - Playground for React: https://playcode.io/react
+- How to set up your first react app (download Node) - https://www.youtube.com/watch?v=zuyH4QUuTZk
 
 
 # Getting Started with Create React App
