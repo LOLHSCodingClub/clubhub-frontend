@@ -1,27 +1,43 @@
-import React, { useState } from "react";
+import React,{useState} from "react";
+import './Login.css';
 
-export const Login = (props) => {
-    const [email, setEmail] = useState('');
-    const [pass, setPass] = useState('');
-    const [rememberme, setRememberme] = useState('');
+const Login = (props) => {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(email);
-    }
+const [email, setEmail] = useState('');
+const [password, setPassword] = useState('');
 
-    return (
-        <div className="auth-form-container">
-            <h2>Login</h2>
-            <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="email">Email Address</label>
-                <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="youremail@gmail.com" id="email" name="email" />
-                <label htmlFor="password">Password</label>
-                <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
-                <button type="submit">Log In</button>
-            </form>
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here</button>
-            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Forgot password?</button>
-        </div>
-    )
+
+  return (
+    <div className="auth-form-container">
+      <h2>Login</h2>
+      <form className="login-form">
+        <label>Email</label>
+        <input
+          placeholder="Enter email"
+          id="email"
+          name="email"
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        ></input>
+        <label>Password</label>
+        <input
+          placeholder="Password"
+          id="password"
+          name="password"
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        ></input>
+        <button>Login</button>
+      </form>
+      <button className="link-btn ">
+        If you don't have an account Please Register
+      </button>
+      <button className="link-btn ">Forgot Password</button>
+    </div>
+  );
+
 }
+
+export default Login;
